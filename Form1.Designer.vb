@@ -474,7 +474,7 @@ Partial Class Form1
         ' 
         ' verifypanel
         ' 
-        verifypanel.BackColor = Color.Silver
+        verifypanel.BackColor = Color.Transparent
         verifypanel.Controls.Add(Guna2GradientButton4)
         verifypanel.Controls.Add(verify)
         verifypanel.FillColor = Color.White
@@ -554,7 +554,7 @@ Partial Class Form1
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        ClientSize = New Size(1129, 661)
+        ClientSize = New Size(1129, 651)
         Controls.Add(Label3)
         Controls.Add(P2)
         Controls.Add(P1)
